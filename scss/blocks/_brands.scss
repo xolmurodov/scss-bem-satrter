@@ -1,0 +1,20 @@
+.main-brands{
+    padding: 0 100px;
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.whole-brands{
+    display: flex;
+}
+.brands__head{
+    font-family: 'Times New Roman', Times, serif;
+    width: 320px;
+    line-height: 1;
+}
+.brands__desc{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 475px;
+}

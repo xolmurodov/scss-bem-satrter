@@ -1,0 +1,33 @@
+.header {
+    margin-top: 40px;
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .nav {
+    .nav__list {
+      display: flex;
+    }
+  }
+
+  .nav__item {
+    list-style: none;
+    .nav__link {
+      margin: 0;
+      text-decoration: none;
+      opacity: 0.7;
+      color: black;
+      margin-left: 30px;
+    }
+  }
+
+  .nav__item:nth-child(4) .nav__link {
+    opacity: 0;
+    border-bottom: 2px solid black;
+    &:nth-child(1) .nav__link {
+      margin-left: 0;
+    }
+  }
